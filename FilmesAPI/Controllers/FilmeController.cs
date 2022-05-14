@@ -7,7 +7,7 @@ namespace FilmesAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class FilmeController : ControllerBase 
+    public class FilmeController : ControllerBase
     {
         private static List<Filme> filmes = new List<Filme>();
         private static int id = 1;
@@ -15,23 +15,28 @@ namespace FilmesAPI.Controllers
 
 
         [HttpPost]
-        public void AdicionaFilme([FromBody] Filme filme)
+        public IActionResult AdicionaFilme([FromBody] Filme filme)
         {
             filme.Id = id++;
             filmes.Add(filme);
+            return CreatedAtAction(nameof(RecuperaFilmesPorId), new {Id =  filme.Id}, filme);
         }
 
         [HttpGet]
-        public IEnumerable<Filme> RecuperarFilmes()
+        public IActionResult RecuperarFilmes()
         {
-            return filmes;
+            return Ok(filmes);
         }
 
         [HttpGet("{id}")]
-        public Filme RecuperaFilmesPorId(int id)
+        public IActionResult RecuperaFilmesPorId(int id)
         {
-            return filmes.FirstOrDefault(filme => filme.Id == id);
-
+            Filme filme = filmes.FirstOrDefault(filme => filme.Id == id);
+            if (filme != null)
+            {
+               return Ok(filme);
+            }
+            return NotFound();
         }
     }
 }

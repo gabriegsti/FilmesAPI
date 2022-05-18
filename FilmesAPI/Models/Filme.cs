@@ -13,6 +13,7 @@ namespace FilmesAPI.Models
 
         [Required(ErrorMessage = "O campo diretor é obrigatório")]
         public string Diretor { get; set; }
+
         [StringLength(30, ErrorMessage = "O gênero não pode passar de 30 caracteres")]
         public string Genero { get; set; }
 

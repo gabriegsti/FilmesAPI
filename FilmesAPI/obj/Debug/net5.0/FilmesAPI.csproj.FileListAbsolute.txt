@@ -67,7 +67,6 @@ C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\MySql.Data.dll
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Ubiety.Dns.Core.dll
-C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Zstandard.Net.dll
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -92,3 +91,4 @@ C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0\FilmesAPI.pdb
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0\FilmesAPI.genruntimeconfig.cache
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0\ref\FilmesAPI.dll
+C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\ZstdNet.dll

@@ -92,3 +92,9 @@ C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0\FilmesAPI.genruntimeconfig.cache
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0\ref\FilmesAPI.dll
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

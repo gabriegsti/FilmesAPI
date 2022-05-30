@@ -1,11 +1,16 @@
 ﻿using AutoMapper;
+using FilmesAPI.Data.Dtos.Cinema;
+using FilmesAPI.Models;
 
 namespace FilmesAPI.Profiles
 {
     public class CinemaProfile : Profile
     {
-        CreateMap<CreateCinemaDto, Cinema>();
+        public CinemaProfile()
+        {
+            CreateMap<CreateCinemaDto, Cinema>();
             CreateMap<Cinema, ReadCinemaDto>();
             CreateMap<UpdateCinemaDto, Cinema>();
+        }
     }
 }

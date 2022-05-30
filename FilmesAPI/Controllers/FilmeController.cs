@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FilmesAPI.Data;
 using FilmesAPI.Data.Dtos;
+using FilmesAPI.Data.Dtos.Filme;
 using FilmesAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -26,14 +27,13 @@ namespace FilmesAPI.Controllers
         public IActionResult AdicionaFilme([FromBody] CreateFilmeDto filmeDto)
         {
             Filme filme = _mapper.Map<Filme>(filmeDto);
-
             _context.Filmes.Add(filme);
             _context.SaveChanges();
             return CreatedAtAction(nameof(RecuperaFilmesPorId), new { Id = filme.Id }, filme);
         }
 
         [HttpGet]
-        public IEnumerable<Filme> RecuperarFilmes()
+        public IEnumerable<Filme> RecuperaFilmes()
         {
             return _context.Filmes;
         }
@@ -45,7 +45,8 @@ namespace FilmesAPI.Controllers
             if (filme != null)
             {
                 ReadFilmeDto filmeDto = _mapper.Map<ReadFilmeDto>(filme);
-                return Ok(filme);
+
+                return Ok(filmeDto);
             }
             return NotFound();
         }
@@ -59,10 +60,7 @@ namespace FilmesAPI.Controllers
                 return NotFound();
             }
             _mapper.Map(filmeDto, filme);
-
-
             _context.SaveChanges();
-
             return NoContent();
         }
 
@@ -74,10 +72,8 @@ namespace FilmesAPI.Controllers
             {
                 return NotFound();
             }
-
             _context.Remove(filme);
             _context.SaveChanges();
-
             return NoContent();
         }
     }

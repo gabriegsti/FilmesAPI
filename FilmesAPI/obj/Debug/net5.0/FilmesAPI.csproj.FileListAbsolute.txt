@@ -39,7 +39,6 @@ C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Entit
 C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\MySql.Data.dll
 C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Ubiety.Dns.Core.dll
-C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Zstandard.Net.dll
 C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
 C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
@@ -98,3 +97,12 @@ C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\gabri\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll

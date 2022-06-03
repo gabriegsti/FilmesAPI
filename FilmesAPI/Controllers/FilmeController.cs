@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using FilmesAPI.Data;
 using FilmesAPI.Data.Dtos;
-using FilmesAPI.Data.Dtos.Filme;
 using FilmesAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -27,21 +26,21 @@ namespace FilmesAPI.Controllers
         public IActionResult AdicionaFilme([FromBody] CreateFilmeDto filmeDto)
         {
             Filme filme = _mapper.Map<Filme>(filmeDto);
-            _context.Filmes.Add(filme);
+            _context.filmes.Add(filme);
             _context.SaveChanges();
-            return CreatedAtAction(nameof(RecuperaFilmesPorId), new { Id = filme.Id }, filme);
+            return CreatedAtAction(nameof(RecuperafilmesPorId), new { Id = filme.Id }, filme);
         }
 
         [HttpGet]
-        public IEnumerable<Filme> RecuperaFilmes()
+        public IEnumerable<Filme> Recuperafilmes()
         {
-            return _context.Filmes;
+            return _context.filmes;
         }
 
         [HttpGet("{id}")]
-        public IActionResult RecuperaFilmesPorId(int id)
+        public IActionResult RecuperafilmesPorId(int id)
         {
-            Filme filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
+            Filme filme = _context.filmes.FirstOrDefault(filme => filme.Id == id);
             if (filme != null)
             {
                 ReadFilmeDto filmeDto = _mapper.Map<ReadFilmeDto>(filme);
@@ -54,7 +53,7 @@ namespace FilmesAPI.Controllers
         [HttpPut("{id}")]
         public IActionResult AtualizaFilme(int id, [FromBody] UpdateFilmeDto filmeDto)
         {
-            Filme filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
+            Filme filme = _context.filmes.FirstOrDefault(filme => filme.Id == id);
             if (filme == null)
             {
                 return NotFound();
@@ -67,7 +66,7 @@ namespace FilmesAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeletaFilme(int id)
         {
-            Filme filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
+            Filme filme = _context.filmes.FirstOrDefault(filme => filme.Id == id);
             if (filme == null)
             {
                 return NotFound();

@@ -15,10 +15,10 @@ namespace FilmesAPI.Data
             builder.Entity<Endereco>()
                 .HasOne(endereco => endereco.Cinema)
                 .WithOne(cinema => cinema.Endereco)
-                .HasPrincipalKey<Cinema>(cinema => cinema.EnderecoId);
+                .HasForeignKey<Cinema>(cinema => cinema.EnderecoId);
         }
-        public DbSet<Filme> Filmes { get; set; }
-        public DbSet<Cinema> Cinemas { get; set; }
-        public DbSet<Endereco> Enderecos { get; }
+        public DbSet<Filme> filmes { get; set; }
+        public DbSet<Cinema> cinemas { get; set; }
+        public DbSet<Endereco> enderecos { get; set; }
     }
 }

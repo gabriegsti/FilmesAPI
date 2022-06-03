@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using FilmesAPI.Data;
-using FilmesAPI.Data.Dtos.Endereco;
+using FilmesAPI.Data.Dtos;
 using FilmesAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -25,21 +25,21 @@ namespace FilmesAPI.Controllers
         public IActionResult AdicionaEndereco([FromBody] CreateEnderecoDto enderecoDto)
         {
             Endereco endereco = Mapper.Map<Endereco>(enderecoDto);
-            Context.Enderecos.Add(endereco);
+            Context.enderecos.Add(endereco);
             Context.SaveChanges();
-            return CreatedAtAction(nameof(RecuperaEnderecosPorId), new { Id = endereco.Id }, endereco);
+            return CreatedAtAction(nameof(RecuperaenderecosPorId), new { Id = endereco.Id }, endereco);
         }
 
         [HttpGet]
-        public IEnumerable<Endereco> RecuperaEnderecos()
+        public IEnumerable<Endereco> Recuperaenderecos()
         {
-            return Context.Enderecos;
+            return Context.enderecos;
         }
 
         [HttpGet("{id}")]
-        public IActionResult RecuperaEnderecosPorId(int id)
+        public IActionResult RecuperaenderecosPorId(int id)
         {
-            Endereco endereco = Context.Enderecos.FirstOrDefault(endereco => endereco.Id == id);
+            Endereco endereco = Context.enderecos.FirstOrDefault(endereco => endereco.Id == id);
             if (endereco != null)
             {
                 ReadEnderecoDto enderecoDto = Mapper.Map<ReadEnderecoDto>(endereco);
@@ -52,7 +52,7 @@ namespace FilmesAPI.Controllers
         [HttpPut("{id}")]
         public IActionResult AtualizaEndereco(int id, [FromBody] UpdateEnderecoDto enderecoDto)
         {
-            Endereco endereco = Context.Enderecos.FirstOrDefault(endereco => endereco.Id == id);
+            Endereco endereco = Context.enderecos.FirstOrDefault(endereco => endereco.Id == id);
             if (endereco == null)
             {
                 return NotFound();
@@ -66,7 +66,7 @@ namespace FilmesAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeletaEndereco(int id)
         {
-            Endereco endereco = Context.Enderecos.FirstOrDefault(endereco => endereco.Id == id);
+            Endereco endereco = Context.enderecos.FirstOrDefault(endereco => endereco.Id == id);
             if (endereco == null)
             {
                 return NotFound();

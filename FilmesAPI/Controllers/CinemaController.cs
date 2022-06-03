@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using FilmesAPI.Data;
-using FilmesAPI.Data.Dtos.Cinema;
+using FilmesAPI.Data.Dtos;
 using FilmesAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -27,21 +27,21 @@ namespace FilmesAPI.Controllers
         public IActionResult AdicionaCinema([FromBody] CreateCinemaDto cinemaDto)
         {
             Cinema cinema = _mapper.Map<Cinema>(cinemaDto);
-            _context.Cinemas.Add(cinema);
+            _context.cinemas.Add(cinema);
             _context.SaveChanges();
-            return CreatedAtAction(nameof(RecuperaCinemasPorId), new { Id = cinema.Id }, cinema);
+            return CreatedAtAction(nameof(RecuperacinemasPorId), new { Id = cinema.Id }, cinema);
         }
 
         [HttpGet]
-        public IEnumerable<Cinema> RecuperaCinemas([FromQuery] string nomeDoFilme)
+        public IEnumerable<Cinema> Recuperacinemas([FromQuery] string nomeDoFilme)
         {
-            return _context.Cinemas;
+            return _context.cinemas;
         }
 
         [HttpGet("{id}")]
-        public IActionResult RecuperaCinemasPorId(int id)
+        public IActionResult RecuperacinemasPorId(int id)
         {
-            Cinema cinema = _context.Cinemas.FirstOrDefault(cinema => cinema.Id == id);
+            Cinema cinema = _context.cinemas.FirstOrDefault(cinema => cinema.Id == id);
             if (cinema != null)
             {
                 ReadCinemaDto cinemaDto = _mapper.Map<ReadCinemaDto>(cinema);
@@ -53,7 +53,7 @@ namespace FilmesAPI.Controllers
         [HttpPut("{id}")]
         public IActionResult AtualizaCinema(int id, [FromBody] UpdateCinemaDto cinemaDto)
         {
-            Cinema cinema = _context.Cinemas.FirstOrDefault(cinema => cinema.Id == id);
+            Cinema cinema = _context.cinemas.FirstOrDefault(cinema => cinema.Id == id);
             if (cinema == null)
             {
                 return NotFound();
@@ -67,7 +67,7 @@ namespace FilmesAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeletaCinema(int id)
         {
-            Cinema cinema = _context.Cinemas.FirstOrDefault(cinema => cinema.Id == id);
+            Cinema cinema = _context.cinemas.FirstOrDefault(cinema => cinema.Id == id);
             if (cinema == null)
             {
                 return NotFound();

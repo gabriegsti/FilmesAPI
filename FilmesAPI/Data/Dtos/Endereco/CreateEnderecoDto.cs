@@ -1,4 +1,6 @@
-﻿namespace FilmesAPI.Data.Dtos.Endereco
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FilmesAPI.Data.Dtos.Endereco
 {
     public class CreateEnderecoDto
     {

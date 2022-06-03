@@ -4,6 +4,8 @@ using FilmesAPI.Data.Dtos.Endereco;
 using FilmesAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace FilmesAPI.Controllers
 {
@@ -28,9 +30,50 @@ namespace FilmesAPI.Controllers
             return CreatedAtAction(nameof(RecuperaEnderecosPorId), new { Id = endereco.Id }, endereco)
         }
 
-        private object RecuperaEnderecosPorId()
+        [HttpGet]
+        public IEnumerable<Endereco> RecuperaEnderecos()
         {
-            throw new NotImplementedException();
+            return Context.Enderecos;
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult RecuperaEnderecosPorId(int id)
+        {
+            Endereco endereco = Context.Enderecos.FirstOrDefault(endereco => endereco.Id == id);
+            if (endereco != null)
+            {
+                ReadEnderecoDto enderecoDto = Mapper.Map<ReadEnderecoDto>(endereco);
+
+                return Ok(enderecoDto);
+            }
+            return NotFound();
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult AtualizaEndereco(int id, [FromBody] UpdateEnderecoDto enderecoDto)
+        {
+            Endereco endereco = Context.Enderecos.FirstOrDefault(endereco => endereco.Id == id);
+            if (endereco == null)
+            {
+                return NotFound();
+            }
+            Mapper.Map(enderecoDto, endereco);
+            Context.SaveChanges();
+            return NoContent();
+        }
+
+
+        [HttpDelete("{id}")]
+        public IActionResult DeletaEndereco(int id)
+        {
+            Endereco endereco = Context.Enderecos.FirstOrDefault(endereco => endereco.Id == id);
+            if (endereco == null)
+            {
+                return NotFound();
+            }
+            Context.Remove(endereco);
+            Context.SaveChanges();
+            return NoContent();
         }
     }
 }

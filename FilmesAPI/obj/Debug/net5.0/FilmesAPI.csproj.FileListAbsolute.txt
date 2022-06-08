@@ -53,3 +53,4 @@ C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0\FilmesAPI.pdb
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0\FilmesAPI.genruntimeconfig.cache
 C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\obj\Debug\net5.0\ref\FilmesAPI.dll
+C:\Users\aluno06.TSACBRRJLP046\source\repos\FilmesAPI\FilmesAPI\bin\Debug\net5.0\FluentResults.dll

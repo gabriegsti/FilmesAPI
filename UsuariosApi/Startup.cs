@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System;
+using UsuariosApi.Services;
 
 namespace UsuariosApi
 {
@@ -28,6 +29,9 @@ namespace UsuariosApi
                 );
             services.AddIdentity<IdentityUser<int>, IdentityRole<int>>()
                 .AddEntityFrameworkStores<UserDbContext>();
+            services.AddScoped<CadastroService, CadastroService>();
+            services.AddScoped<LoginService, LoginService>();
+            services.AddScoped<TokenService, TokenService>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Jvqtkp93tDm/X8EVRqtE4ZS75e25Ml2lUvTCvyIVO7quXH+rRLRdOa4Kx77z8IBELSy0uNQ9KF5JNWk1t4IrWw==",
+  "dgSpecHash": "4gNx8yVfe1bmZg/CFYdK5By8G6vw5cVGZ9C+gZ3HPt9gja/o5xrmmf1EkF5qVw6uy7GcC6KseJBLMof0z3aQ7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\aluno06.TSACBRRJLP046\\source\\repos\\FilmesAPI\\UsuariosApi\\UsuariosApi.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\fluentresults\\2.5.0\\fluentresults.2.5.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
@@ -65,6 +66,9 @@
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.webencoders\\2.2.0\\microsoft.extensions.webencoders.2.2.0.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.0\\microsoft.identitymodel.jsonwebtokens.6.12.0.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.0\\microsoft.identitymodel.logging.6.12.0.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.0\\microsoft.identitymodel.tokens.6.12.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -119,6 +123,7 @@
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\system.globalization.calendars\\4.3.0\\system.globalization.calendars.4.3.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\system.globalization.extensions\\4.3.0\\system.globalization.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.0\\system.identitymodel.tokens.jwt.6.12.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\system.io.compression\\4.3.0\\system.io.compression.4.3.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",

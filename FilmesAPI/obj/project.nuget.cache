@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YzmRMfcb2udZYCC3kHUDVNIQJQMrYrQPGh3qR1j/73A+JqVHvalp8ni5QUgpQb5U7OS2HfuYrnqtenuUsXpC/g==",
+  "dgSpecHash": "YzHaIJYYYAN6SViuBA6lBDHs8+gbtY3D8vsUo0tHb/kWyMj4pN3I4Ajbl4LggAM+Sl8R14fKC5wOUCBgVTWlbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\aluno06.TSACBRRJLP046\\source\\repos\\FilmesAPI\\FilmesAPI\\FilmesAPI.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,9 @@
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.9\\microsoft.aspnetcore.cryptography.keyderivation.5.0.9.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.9\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.9.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",
@@ -28,6 +31,8 @@
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.9\\microsoft.extensions.identity.core.5.0.9.nupkg.sha512",
+    "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.9\\microsoft.extensions.identity.stores.5.0.9.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\aluno06.TSACBRRJLP046\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",

@@ -18,7 +18,7 @@ namespace UsuariosApi.Services
                 new Claim("id", usuario.Id.ToString())
             };
             var chave = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes("123456789101112131415161718192021")
+                Encoding.UTF8.GetBytes("0asdjas09djsa09djasdjsadajsd09asjd09sajcnzxn")
                 );
             var credenciais = new SigningCredentials(chave, SecurityAlgorithms.HmacSha256);
             var token = new JwtSecurityToken(

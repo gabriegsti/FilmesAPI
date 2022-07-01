@@ -6,8 +6,8 @@ using UsuariosApi.Services;
 
 namespace UsuariosApi.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class LoginController : ControllerBase
     {
         private LoginService _loginService;

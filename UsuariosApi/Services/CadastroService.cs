@@ -36,7 +36,7 @@ namespace UsuariosApi.Services
 
                 _emailService.EnviarEmail(new[] { usuarioIdentity.Email },
                     "Link de ativação", usuarioIdentity.Id, code);
-                return Result.Ok().WithSuccess(code);
+                return Result.Ok().WithSuccess(code).WithSuccess(usuarioIdentity.Id.ToString());
             }
 
             return Result.Fail("Falha ao cadastrar o usuário");
